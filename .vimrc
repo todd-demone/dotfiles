@@ -41,5 +41,20 @@ set wildmenu " Display all matching files when I tab-complete
 " :nnoremap <c-k> <c-w>k
 " :nnoremap <c-l> <c-w>l
 
-" change comment color to light gray
-highlight Comment ctermfg=gray guifg=#808080
+" Syntax highlighting
+" highlight Function ctermfg=cyan guifg=#00ffff
+" highlight Keyword ctermfg=lightblue guifg=#00aaff
+" highlight Conditional ctermfg=magenta guifg=#ff00ff
+" highlight Operator ctermfg=white guifg=#ffffff
+" highlight String ctermfg=green guifg=#00ff00
+" highlight Character ctermfg=yellow guifg=#ffff00
+" highlight Number ctermfg=58 guifg=#ff8800 " orange
+" highlight Boolean ctermfg=lightmagenta guifg=#ff77ff
+" highlight LineNr ctermfg=gray guifg=#808080
+" highlight Comment ctermfg=gray guifg=#808080
+
+" colorscheme default
+" colorscheme desert
+" colorscheme elflord
+" colorscheme blue
+" colorscheme slate
