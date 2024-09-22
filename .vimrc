@@ -1,6 +1,9 @@
 set nocompatible
 set t_co=256
 syntax on " Turn syntax highlighting on
+set background=dark
+let g:gruvbox_contrast_dark = 'hard'
+colorscheme gruvbox
 set number " Show absolute line numbers on the left.
 filetype plugin on " Auto-detect un-labeled filetypes
 set ai " Sets auto-indentation
