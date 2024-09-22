@@ -1,7 +1,8 @@
 set nocompatible
+set t_co=256
+syntax on " Turn syntax highlighting on
 set number " Show absolute line numbers on the left.
 filetype plugin on " Auto-detect un-labeled filetypes
-syntax on " Turn syntax highlighting on
 set ai " Sets auto-indentation
 set si " Sets smart-indentation
 set noswapfile " Prevent vim from creating .swp files
@@ -34,13 +35,11 @@ set wildmenu " Display all matching files when I tab-complete
 " THINGS TO CONSIDER:
 " - :b lets you autocomplete any open buffer
 
-colorscheme default
-" colorscheme desert
-" colorscheme pablo
-" colorscheme slate
-
 :nnoremap <ESC> <cmd>nohlsearch<CR>
 " :nnoremap <c-h> <c-w>h
 " :nnoremap <c-j> <c-w>j
 " :nnoremap <c-k> <c-w>k
 " :nnoremap <c-l> <c-w>l
+
+" change comment color to light gray
+highlight Comment ctermfg=gray guifg=#808080
